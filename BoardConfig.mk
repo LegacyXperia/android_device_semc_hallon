@@ -20,4 +20,3 @@ TARGET_OTA_ASSERT_DEVICE := MT15i,MT15a,hallon
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/hallon/bluetooth
-BOARD_BLUEDROID_VENDOR_CONF := device/semc/hallon/bluetooth/vnd_hallon.txt
