@@ -19,7 +19,18 @@ $(call inherit-product, device/semc/hallon/full_hallon.mk)
 $(call inherit-product, vendor/cm/config/gsm.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/cm/config/common_mini_phone.mk)
+
+# Optional CM packages
+PRODUCT_PACKAGES += \
+    HoloSpiralWallpaper \
+    MagicSmokeWallpapers \
+    NoiseField \
+    Galaxy4 \
+    LiveWallpapers \
+    LiveWallpapersPicker \
+    VisualizationWallpapers \
+    PhaseBeam
 
 # Set build fingerprint / ID / Product Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=MT15i BUILD_FINGERPRINT="SEMC/MT15i_1254-2184/MT15i:4.0.4/4.1.B.0.587/tL1_3w:user/release-keys" PRIVATE_BUILD_DESC="MT15i-user 4.0.4 4.1.B.0.587 tL1_3w test-keys"
