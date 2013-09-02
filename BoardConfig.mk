@@ -32,3 +32,6 @@ TARGET_OTA_ASSERT_DEVICE := MT15i,MT15a,hallon
 
 # HDMI
 TARGET_QCOM_HDMI_OUT := false
+
+# CM Hardware tunables
+BOARD_HARDWARE_CLASS := device/semc/hallon/cmhw
