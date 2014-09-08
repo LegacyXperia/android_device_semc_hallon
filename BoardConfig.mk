@@ -15,8 +15,6 @@
 -include device/semc/mogami-common/BoardConfigCommon.mk
 -include vendor/semc/hallon/BoardConfigVendor.mk
 
-TARGET_SPECIFIC_HEADER_PATH += device/semc/hallon/include
-
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/hallon/bluedroid
 
